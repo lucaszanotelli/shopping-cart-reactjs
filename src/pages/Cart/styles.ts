@@ -31,10 +31,11 @@ export const Container = styled.div`
 
 export const ProductTable = styled.table`
   width: 100%;
+  display: contents;
 
   thead th {
     color: #999;
-    text-align: left;
+    text-align: center;
     padding: 12px;
   }
 
@@ -50,6 +51,7 @@ export const ProductTable = styled.table`
   strong {
     color: #333;
     display: block;
+    padding-right: 20px;
   }
 
   span {
@@ -62,6 +64,7 @@ export const ProductTable = styled.table`
   div {
     display: flex;
     align-items: center;
+    padding-left: 20px;
 
     input {
       border: 1px solid #ddd;
@@ -100,6 +103,7 @@ export const ProductTable = styled.table`
 export const Total = styled.div`
   display: flex;
   align-items: baseline;
+  padding-right: 40px;
 
   span {
     color: #999;
